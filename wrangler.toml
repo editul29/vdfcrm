@@ -1,5 +1,5 @@
 # Worker de TEST. Nu il folositi pentru productia LIVE.
-name = "vodafone-business-hunting-crm-test"
+name = "vdfcrm"
 main = "src/index.js"
 compatibility_date = "2026-10-29"
 
