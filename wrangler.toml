@@ -1,0 +1,16 @@
+# Worker de TEST. Nu il folositi pentru productia LIVE.
+name = "vodafone-business-hunting-crm-test"
+main = "src/index.js"
+compatibility_date = "2026-10-29"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
+
+[[r2_buckets]]
+binding = "DOCS"
+bucket_name = "vodafone-crm-docs-test"
+
+[vars]
+SESSION_HOURS = "12"

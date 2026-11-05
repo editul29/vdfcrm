@@ -1,0 +1,12 @@
+REFA GITHUB — VODAFONE BUSINESS HUNTING CRM (06.11.2026)
+
+1) Acesta este ultimul pachet de cod furnizat in conversatie pe 05.11.2026.
+2) Contine src/index.js, public/index.html, wrangler.toml (TEST), wrangler.production.toml (LIVE) si workflow-uri .github/workflows.
+3) Nu incarca ZIP ca atare in GitHub. Extrage-l.
+4) Recomandare: GitHub Desktop (nu necesita Node.js). File > Add local repository > alege folderul extras > Create repository here > Commit > Publish repository, cu Keep this code private bifat.
+5) Daca folosesti browserul GitHub, incarca fisierele si folderele extrase pastrand structura, inclusiv .github/workflows. Un upload de ZIP nu extrage codul.
+6) Pentru un repo nou, GitHub Actions Secrets NU se transfera automat. Configureaza din nou CLOUDFLARE_API_TOKEN si CLOUDFLARE_ACCOUNT_ID in repo nou, fara sa expui valorile.
+7) NU apasa Run workflow pentru PRODUCTION. Mai intai valideaza versiunea pe Worker de TEST.
+8) Nu e nevoie sa recreezi Turso sau bucketurile R2; ele sunt separate de repository.
+9) Verifica salvarea datelor, PDF-ul, documentele si autentificarea in test inainte de LIVE.
+10) Nu sterge repo vechi si mediul de test inainte sa confirmi noua versiune.

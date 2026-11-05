@@ -1,0 +1,15 @@
+{
+  "name": "vodafone-business-hunting-crm",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.15"
+  },
+  "devDependencies": {
+    "wrangler": "^4.45.0"
+  }
+}
